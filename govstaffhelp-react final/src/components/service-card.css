@@ -1,0 +1,21 @@
+.service-card-container {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.service-card-link {
+  display: contents;
+}
+.service-card-text {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .service-card-container {
+    width: 100%;
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+}
